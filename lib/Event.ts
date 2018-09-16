@@ -1,14 +1,12 @@
-export class Event {
+import { FabrixGeneric } from '@fabrix/fabrix/dist/common'
+
+export class Event extends FabrixGeneric {
   public app
-  public pubSub
-  public methods
 
   constructor (app) {
+    super(app)
+
     Object.defineProperties(this, {
-      app: {
-        enumerable: false,
-        value: app
-      },
       pubSub: {
         enumerable: false,
         value: app.pubSub
