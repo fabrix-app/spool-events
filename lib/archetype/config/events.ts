@@ -17,7 +17,7 @@ export const events = {
   /**
    * If Events are enabled
    */
-  enabled: process.env.EVENTS_ENABLED || true,
+  // enabled: process.env.EVENTS_ENABLED || true,
 
   /**
    * Set profile to subscribe to events, in the matching profile (engine.<type>.profiles).

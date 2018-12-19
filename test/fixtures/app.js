@@ -72,7 +72,7 @@ const App = {
         }
       }
     },
-    services: require('../../dist/api/services/index')
+    // services: require('../../dist/api/services/index')
   },
   pkg: {
     name: 'spool-events-test',
@@ -98,7 +98,7 @@ const App = {
         require('@fabrix/spool-router').RouterSpool,
         require('@fabrix/spool-sequelize').SequelizeSpool,
         require('@fabrix/spool-express').ExpressSpool,
-        require('../../dist/index').EventsSpool
+        require('../../dist/EventsSpool').EventsSpool
       ]
     },
     policies: {},
