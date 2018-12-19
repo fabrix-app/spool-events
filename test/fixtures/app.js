@@ -72,7 +72,7 @@ const App = {
         }
       }
     },
-    services: require('../../dist/api/services/index')
+    // services: require('../../dist/api/services/index')
   },
   pkg: {
     name: 'spool-events-test',
