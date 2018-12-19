@@ -1,6 +1,6 @@
 {
   "name": "@fabrix/spool-events",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Spool - Event Emitter Pub/Sub for Fabrix",
   "homepage": "https://fabrix.app",
   "author": {
@@ -53,12 +53,12 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@fabrix/fabrix": "^1.5.3",
+    "@fabrix/fabrix": "^1.6.0",
     "@fabrix/lint": "^1.0.0-alpha.3",
     "@fabrix/spool-i18n": "^1.5.0",
-    "@fabrix/spool-sequelize": "^1.5.0",
+    "@fabrix/spool-sequelize": "^1.6.1",
     "@fabrix/spool-express": "^1.5.0",
-    "@fabrix/spool-router": "^1.5.0",
+    "@fabrix/spool-router": "^1.6.0",
     "@types/node": "~10.3.4",
     "express": "^4.16.3",
     "pg": "^6.4.2",
