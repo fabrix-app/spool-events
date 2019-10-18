@@ -1,4 +1,6 @@
-# spool-events
+# DEPRECATED spool-events
+
+This spool is no longer maintained, please instead consider using https://github.com/fabrix-app/spool-broadcast
 
 [![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
